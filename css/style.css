@@ -1,6 +1,8 @@
+
 @media screen and (max-width:768px) {
-    .hamburger-menu {
-        position: absolute;
+
+   
+    .hamburger-menu { 
         top: 10px;
         right: 5%;
         background: transparent;
@@ -8,8 +10,9 @@
         font-size: 18px;
         outline: none!important;
     }
+   
     .hamburger-menu i {
-        transition: all 1s;
+        transition: all .7s;
         font-size: 20px;
     }
     .hamburger-animation {
@@ -17,17 +20,19 @@
     }
     
     header {
+        position: fixed;
         z-index: 99;
         max-width: 100%;
     }
     .menus {
-        position: absolute;
+        position: fixed;
         background:#28a745;
         max-width: 100%;
+        top: 0;
         width: 100%;
-        overflow-x: hidden!important;
         transform: translateX(100%);
-        transition: all 1s;
+        transition: all .7s;
+        
         
     } 
     .menu-animation  {
@@ -35,7 +40,7 @@
     }
     
     .pre-header {
-        margin-top: 3rem;
+        margin-top: 5rem;
     }
     nav {
         display: flex;
@@ -51,5 +56,13 @@
     .link-nav {
         color: #fff!important;
     }
-    
+  
 }
+.complain {
+    height: 300px!important;
+}
+@media screen and (max-height:650px) {
+    .complain {
+        height: 150px!important;
+    }
+} 
