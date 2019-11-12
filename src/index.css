@@ -1,0 +1,19 @@
+
+@media screen and (max-width:768px) {
+
+   .menus {
+       display: none;
+   }
+  
+}
+.complain {
+    height: 300px!important;
+}
+.seemore {
+    cursor: pointer;
+}
+@media screen and (max-height:650px) {
+    .complain {
+        height: 150px!important;
+    }
+} 

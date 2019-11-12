@@ -1,0 +1,29 @@
+.sidebar {
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    right: 0;
+    top: 0;
+    z-index: 200;
+    transform: translateX(100%);
+    transition: all .3s ease-out;
+    background: green;
+}
+.sidebar.open {
+    transform: translateX(0);
+}
+.sidebar-form {
+    width: 100%;
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+    position: relative;
+}
+.sidebar-input {
+    width: 70%;
+}
+@media screen and (min-width:768px) {
+    .sidebar {
+        display: none;
+    }
+}
